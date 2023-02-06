@@ -1,0 +1,12 @@
+//You are given a number stored in a variable with the following name num
+//You have to print all the even numbers greater than zero, 
+//and less than or equal to the value stored in num
+
+function moveTwoAheadII(num) {
+    num = 12;
+    for(let i=1;i<=num;i++){
+        if(i%2==0){
+            console.log(i);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+//You are given two numbers, stored in variables with the following names max, min 
+//You have to print all the numbers from min to max, excluding max. Print each number on a new line
+//For example, if the value stored in max = 19, and the value stored in min = 14, 
+
+
+function fromAtoB(max,min){
+    max=19,min=13;
+    for(let i=min;i<max;i++){
+        console.log(i);
+    }
+}

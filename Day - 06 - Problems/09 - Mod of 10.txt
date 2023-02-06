@@ -1,0 +1,10 @@
+//You are given a number stored in a variable with the name num Find out the value obtained from 
+//the expression i % 10, whereiconsists of all the values from 1 to the value stored in num, including num
+
+function modeof10(num) {
+	
+    num = 7;
+    for(let i=1;i<=num;i++){
+        console.log(i%10);
+    }
+}

@@ -1,0 +1,12 @@
+//Given a number, stored in the variable with the name num 
+//Print the multiplication table of the value stored in num
+//For example, if the value stored in num is 2, then the output should be printed in new line
+
+function multiplicationTableN(num) {
+    num=4;
+    for(let i=1;i<=(num*10);i++){
+        if(i%num==0){
+            console.log(i);
+        }
+    }    
+}

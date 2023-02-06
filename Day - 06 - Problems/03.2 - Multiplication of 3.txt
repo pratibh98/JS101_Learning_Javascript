@@ -1,0 +1,10 @@
+//Print the multiplication table of 3. Print each number on a new line
+
+function multiplicationTable3(){
+
+    for(let i=3;i<=30;i++){
+        if(i%3==0){
+            console.log(i);
+        }
+    }
+}
