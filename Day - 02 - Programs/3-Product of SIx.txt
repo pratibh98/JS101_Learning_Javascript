@@ -1,0 +1,8 @@
+//Problem--3--You are given six numbers, stored in variables with the following names
+//one, two, three, four, five, six
+//Print the product of all the six numbers
+
+function productOfSix(one, two, three, four, five, six) {
+one = 1,two = 2,three = 3,four = 4,five = 5,six = 6;
+    console.log(one*two*three*four*five*six);
+}

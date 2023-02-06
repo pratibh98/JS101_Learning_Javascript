@@ -1,0 +1,8 @@
+//Problem--4--You are given five numbers stored in variables with the following names
+//one, two, three, four, five
+//Find the sum of the five values, and print it
+
+function sumOfFive(one, two, three, four, five) {
+    one = 1,two = 2,three = 3,four = 4,five = 5,six = 6;
+    console.log(one+two+three+four+five);
+}
