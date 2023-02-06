@@ -1,0 +1,6 @@
+//Problem--5--Cube of a Number
+
+function cubeOfNumber(N) {
+    N=3;
+    console.log(N*N*N);
+}
